@@ -1,0 +1,11 @@
+name: CharacterSheet
+version: '1.0-SNAPSHOT'
+main: io.github.AlexBergman40.characterSheet.CharacterSheet
+api-version: '1.21'
+commands:
+  charactersheet:
+    description: "This is a command"
+    usage: "/charactersheet <character>"
+    aliases: [card, sheet]
+    permission: charactersheet.command.sheet
+    permission-message: "You do not have permission to use this command"
